@@ -1,0 +1,42 @@
+/* add your CSS here */
+* {
+  text-align: left;
+}
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: start;
+  box-shadow: 5px 5px 5px rgb(171, 168, 168);
+}
+.image {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+.info {
+  border: 1px solid gray;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li span {
+  font-weight: bold;
+}
+.info {
+  width: auto;
+  text-align: left;
+  margin-top: 2em;
+}
+.desc {
+  font-style: italic;
+}
